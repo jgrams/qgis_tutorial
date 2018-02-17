@@ -1,0 +1,24 @@
+Adding Data sources:
+
+naturalearthdata.com
+(come in lots of data sizes)
+https://www.ngdc.noaa.gov/nndc/struts/form?t=101650&s=1&d=1
+https://lib.asu.edu/geo
+
+Download a results.tsv
+By clicking "Return All Selected Events in tab-delimited format for import into Excel"
+
+This is tab delmimited, it's not GIS data yet, but it has linkages to space. In QGIS, Under "Layer", Add Layer, add delimited text layer.
+
+WGS 84 will map to latitude and longitude as a coordinate reference system.  This is a technical bit, google coordinate reference systems.  UTM is latitude and longitude systems, web base maps almost universally use mercador coordinate reference systems. Can't performs data analysis on the base maps, they're mostly for origenting you in space.
+
+Click "Zoom Full" if you lose the map to get it back.
+
+Change layer order by dragging them
+
+Heat map is a raster surface, so you can translate a point map into a point density map
+
+Large community of plugin add ons, you can add plugins.  Openlayers is a good plugin for getting web maps in youre.  Qgis2threejs allows you to export maps as html and webgl files and put them on your website.
+
+Can perform selects on your data, then can do visual references and unions on the map to previous layers that have been slected.
+

@@ -1,0 +1,26 @@
+Understand types of data, like tabular data, voctor data, and then you can stylize with stylize layers
+
+Three legs of a GIS system are spatial analysis, digital certography, and database management systems
+
+spatial data has an explicit linkage to geographic space. These are based on coordinate systems. Latitude and longitude are not the only coordinate systems.
+
+Angle based system is different than flattened base system, most GIS systems used angle based systems.
+
+DEM: digital elevation model
+Raster data set.
+
+We can co-register data sets in GIS data which is called a layer.  We're taking a real object and prepresenting it in a computer, we can do this in a couple ways.  We're not trying to make a mode of the real world, we're trying to simplify the data so we can see connections and abstractions.:
+
+Vector data sets have: points (x,y,z coordinate locations), lines (points that are connected together) and polygons (lines that are connected together, also know as areas) and they live in discreet co-ordinate space.
+
+Rasters are continuous surfaces of pixel cells where each cell contains data has a surface of pixels and you can process it faster, but the sheer size of the data set is significantly larger.
+
+Are almost universally more appropriate to display elevation with raster data, but it's dumb to map data like the location of all the fire hydrants in a city because those are a collection of discrete objects rather than a continuous inspection of the.
+
+Raster is faster, vector is more corrector
+
+4 cartographic properties, space, area, distance, and direction (azimuth or the angles).  You always have distortion in 2 of these.  Mercador map preserved angle and direction
+
+Raster is better for continuous data, and vector data is generally better for
+
+Data format we're actually using is
